@@ -1,7 +1,8 @@
 [core]
-    remote = dvcstore2
+    remote = dvcstore
 ['remote "dvcstore"']
-    url = s3://dvc-s3-project-162
+    url = s3://dvc-project-162
+    region = us-east-1
 ['remote "dvcstore2"']
     url = s3://dvc-s3-project-162
     region = us-east-1
