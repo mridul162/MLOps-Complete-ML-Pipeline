@@ -23,3 +23,13 @@ Expermients with DVC:
 16> Do "dvc exp remove {exp-name}" to remove exp (optional) | "dvc exp apply {exp-name}" to reproduce prev exp
 17> Change params, re-run code (produce new experiments)
 18> Now git add, commit, push
+
+Expermient with AWS S3:
+19> Create AWS IAM user
+20> Create Access Key
+21> Create S3 bucket
+22> aws configure
+23> dvc remote add -d dvcstore s3://bucketname
+24> dvc remote modify dvcstore region us-east-1
+25> dvc push
+26> git add, commit and push
