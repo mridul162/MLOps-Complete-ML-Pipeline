@@ -41,11 +41,11 @@ This project demonstrates all of the above in a **production-aligned workflow**.
                 │ (Pipeline)   │
                 └──────┬───────┘
                        │
-        ┌──────────────┼──────────────┐
-        │              │              │
-   Data Ingestion   Training     Evaluation
-        │              │              │
-        └──────► Artifacts & Metrics ◄──────┘
+        ┌──────────────┼────────────────┐
+        │              │                │
+   Data Ingestion   Training       Evaluation
+        │              │                │
+        └────► Artifacts & Metrics ◄────┘
                        │
                  DVCLive Logs
                        │
