@@ -1,8 +1,12 @@
 [core]
-    remote = dvcstore
+    remote = dvcstore4
 ['remote "dvcstore"']
     url = s3://dvc-project-162
     region = us-east-1
 ['remote "dvcstore2"']
     url = s3://dvc-s3-project-162
     region = us-east-1
+['remote "dvcstore3"']
+    url = ../s3:/mlops-bucket-162
+['remote "dvcstore4"']
+    url = s3://mlops-bucket-162
